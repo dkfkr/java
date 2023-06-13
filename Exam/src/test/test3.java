@@ -8,7 +8,8 @@ public class test3 {
 
 	public static void main(String[] args) {
 		
-
+        int num = 1; 
+        int result;
 		
 		
 		result = num++;
@@ -20,7 +21,7 @@ public class test3 {
 		result = num--;
 		System.out.println("resrult : "+result);
 		
-		resuit = --num
+		result = --num;
 		System.out.println("resrult : "+result);
 	}
 

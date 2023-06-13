@@ -12,7 +12,7 @@ public class test7 {
 		
 		for(int k=1 ; k<=10 ; k++) {
 		    
-			if( k % 2 == 0 || K % 3 == 0) {
+			if( k % 2 == 0 || k % 3 == 0) {
 				total +=k;
 			}
 	    }

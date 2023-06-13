@@ -10,17 +10,17 @@ public class test8 {
 		
 		int n = 5;
 		
-		for(int i = 0 ; i<n ; i++) {
+		for(int i = 0 ; i < n ; i++) {
 			
-			for(int i=n-1 ; i=9 ; j--) {
-			    System.out.println(" ");
+			for(int j=n-i ; j >= 0 ; j--) {
+			    System.out.print(" ");
 		}
 		
-		    for(int j=0 ; j=0 ; j++) {
-		    	   System.out.println("*");
+		    for(int j=0 ; j < 2*i+1 ; j++) {
+		    	   System.out.print("*");
 		}
 		
-		System.out.println("\n");
+		System.out.println(" ");
 		
 	  }
 
