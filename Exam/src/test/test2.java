@@ -24,7 +24,7 @@ public class test2 {
 		birth = sc.nextInt();
 	
 		System.out.print("이름 입력 : ");
-		name = sc.nextLine();
+		name = sc.next();
 		
 		int age = year - birth;
 		

@@ -22,7 +22,7 @@ public class test10 {
 			System.out.print(n3+", ");
 			
 			n1 = n2;
-			//blank
+			n2 = n3;
 		}
 
 	}

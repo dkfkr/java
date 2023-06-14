@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  * 날짜 : 2023/06/13
  * 이름 : 홍길동
- * 내용 : 자바 자료형 연습문제
+ * 내용 : 자바 삼항 연산자 연습문제
  */
 public class test6 {
   public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class test6 {
       int y = sc.nextInt();
      
       String result; 
-     result = x > y ? "x가 더 큽니다." : "y가 더 큽니다.";
+      result = x > y ? "x가 더 큽니다." : "y가 더 큽니다.";
 	
      System.out.println(result);
   }

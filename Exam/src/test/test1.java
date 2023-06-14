@@ -18,7 +18,7 @@ public class test1 {
 		boolean var6 = true;
 		boolean var7 = false;
 		String var8 = "hello";
-		Object var9 = null;
+		Object var9 = null; // 참조 타입
 		
 		System.out.println("var1 :"+var1);
 	    System.out.println("var2 :"+var2); 
