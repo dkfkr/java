@@ -7,6 +7,9 @@ package sub2;
  */
 public class MathodTest {
 
+	//전역변수
+	int nun = 1;
+	
 	// main method : 프로그램 진입점
 	public static void main(String[] args) {
 		
@@ -20,9 +23,11 @@ public class MathodTest {
 		System.out.println("y3 : " + y3);
 		
 		//메소드 지역변수와 스텍
-		int t1 = sum(1,10);
+		int t1 = sum(1, 10);
+		int t2 = sum(1, 100);
 		
 		System.out.println("t1 : " + t1);
+		System.out.println("t2 : " + t2);
 		
 	}
 
@@ -35,17 +40,16 @@ public class MathodTest {
 	//메소드 정의
 	public static int sum(int start, int end) {
 		
+		//지역변수 : 메소드가 종료되면 스택에서 해제
 		int total = 0;
 		
 		for(int k=start ; k<=end ; k++) {
 			
-			total += k;
-			
+			total += k;	
 		}
 		   
-		    return total;
+		 return total;
 	}
 	
-	   
 	
 }
