@@ -1,4 +1,4 @@
-package test;
+package test1;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 이름 : 홍길동
  * 내용 : 자바 자료형 연습문제
  */
-public class test4 {
+public class test04 {
 
 	public static void main(String[] args) {
 		

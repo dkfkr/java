@@ -14,10 +14,10 @@ public class Test09 {
 	
 	public static int gcd(int a, int b) {
 		
-		if(a%b == 0) {
+		if(a % b == 0) {
 			return b;
 		}else {
-			return gcd(b, b);
+			return gcd(b, a % b);
 		}
 	}
 

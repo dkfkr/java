@@ -14,11 +14,17 @@ public class Test06 {
 			return input;
 		}
 		
+		public static void result(int val) {
+		System.out.println("덧셈 결과: " + val);
+		System.out.println("******* end *******");
+		
+		}
+		
 		public static int add(int x, int y) {
 			return x + y;
 		}
 		
-		public static void result(int output) {
+		public static int output; {
 			System.out.println("두 정수의 합: " + output);
 		}
 		

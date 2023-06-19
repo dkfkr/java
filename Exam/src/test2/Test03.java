@@ -17,6 +17,7 @@ public class Test03 {
 		}
 
 		System.out.println("\n");
+		
 		//배열의 원소를 역순으로 정렬
 		 int start = 0;
 	        int end = arr.length - 1;
@@ -36,3 +37,5 @@ public class Test03 {
 	}
 
 }
+
+// arr[j] = arr[0-j];

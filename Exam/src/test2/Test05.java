@@ -7,8 +7,8 @@ public class Test05 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
-		int arr[] = {5, 10, 18, 22, 35, 55, 75, 103, 152};
+		// 이진 탐색은 배열을 반으로 나눠 중간숫자로 내가 입력한 값이랑 비교
+		int arr[] = {5, 10, 18, 22, 35, 55, 75, 103, 152}; 
 		
 		System.out.println("검색할 값 입력 : ");
 		int value = sc.nextInt();
@@ -23,9 +23,9 @@ public class Test05 {
 			int mid = (start + end) / 2;
 			
 			if(arr[mid] > value) {
-				end = 152;
+				end = mid - 1;
 			}else if(arr[mid] < value ) {
-				start = 5;
+				start = mid + 1;
 			}else {
 				loc   = mid;
 				state = true;

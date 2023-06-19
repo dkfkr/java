@@ -3,9 +3,9 @@ package sub2;
 import java.util.Scanner;
 
 /*
- * 날짜 : 2022/08/17
- * 이름 : 김철학
- * 내용 : Java 조건문 switch 실습하기
+ * 날짜 : 2023/06/13
+ * 이름 : 강원빈
+ * 내용 : Java 실습
  */
 public class SwitchTest {
 	public static void main(String[] args) {

@@ -24,7 +24,7 @@ public class Test04 {
 				if (arr[i] > arr[j]) {
 					int temp = arr[j];
 					arr[j] = arr[i];
-					arr[1] = temp;
+					arr[i] = temp;
 				}
 			}
 		}

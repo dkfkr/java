@@ -1,10 +1,10 @@
-package test;
+package test1;
 /*
  * 날짜 : 2023/06/13
  * 이름 : 홍길동
  * 내용 : 1 ~ 10까지 2와 3배수의 정수의 합 구하기
  */
-public class test7 {
+public class test07 {
 
 	public static void main(String[] args) {
 		

@@ -1,4 +1,4 @@
-package test;
+package test1;
 /*
  * 날짜 : 2023/06/13
  * 이름 : 홍길동

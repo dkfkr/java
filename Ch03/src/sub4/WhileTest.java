@@ -1,9 +1,9 @@
 package sub4;
 
 /*
- * 날짜 : 2022/08/18
- * 이름 : 김철학
- * 내용 : Java 반복문 while 실습하기 
+ * 날짜 : 2023/06/13
+ * 이름 : 강원빈
+ * 내용 : Java 실습
  */
 public class WhileTest {
 

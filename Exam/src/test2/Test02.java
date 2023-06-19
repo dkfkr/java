@@ -13,13 +13,13 @@ public class Test02 {
 		
 		int maxNum = arr[0];
 		
-		for (int i = 0 ; i < 8 ; i++) {
+		for (int i = 0 ; i < arr.length ; i++) {
 			if (maxNum < arr[i]) {
 				maxNum = arr[i];
 			}
 		}	
 			
-	        System.out.println("배열 arr에서 가장 큰수 : " + maxNum);	
+	    System.out.println("배열 arr에서 가장 큰수 : " + maxNum);	
 	}
 }
 

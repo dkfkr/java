@@ -1,11 +1,11 @@
-package test;
+package test1;
 
 /*
  * 날짜 : 2023/06/13
  * 이름 : 홍길동
  * 내용 : 자바 자료형 연습문제
  */
-public class test1 {
+public class test01 {
 
 	public static void main(String[] args) {
 		

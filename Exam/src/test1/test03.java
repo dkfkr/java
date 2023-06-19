@@ -1,10 +1,10 @@
-package test;
+package test1;
 /*
  * 날짜 : 2023/06/13
  * 이름 : 홍길동
  * 내용 : 자바 연산자 연습문제
  */
-public class test3 {
+public class test03 {
 
 	public static void main(String[] args) {
 		

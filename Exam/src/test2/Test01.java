@@ -11,15 +11,13 @@ public class Test01 {
 		
 		char str[] = {'I', ' ', 'L', 'O', 'V', 'E', ' ', 'Y', 'O','U'};
 		int row, col;
-		int index = 0;
+		
 		
 		for (row = 1; row < 10 ; row++) {
 			 for (col = 1 ; col <= row ; col++) {
-				 System.out.print(str[index]); 
-	             index = (index + 1) % str.length;	
+				 System.out.println(str[col]); 
 			}
 			
-			System.out.println("\n");
 		}
 	}
 
