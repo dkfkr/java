@@ -12,7 +12,7 @@ public class Test04 {
 		int x = sc.nextInt();
 		int y = sc.nextInt();
 		
-		if( x > 0 && y > 0) {
+		if( x > 0 && y > 0) { 
 			System.out.println("1");
 		}else if( x < 0 && y > 0) {
 			System.out.println("2");

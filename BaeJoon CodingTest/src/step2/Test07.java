@@ -32,8 +32,10 @@ public class Test07 {
         	int result2 = 1000 + dice1 * 100;
         	System.out.println(result2);        
         }else if(dice1 != dice2 && dice1 != dice3) {
-        	 int result3 = max * 100;
-        	 System.out.println(result3);
+        	  	if(dice2 != dice3) {
+        	     int result3 = max * 100;
+        	     System.out.println(result3);
+        	     }        
         }
         
         sc.close();

@@ -10,7 +10,7 @@ public class Test03 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int year = sc.nextInt();
+		int year = sc.nextInt(); 
 		
 		if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
 		    System.out.println("1");

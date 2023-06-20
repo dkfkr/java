@@ -11,7 +11,7 @@ public class Test05 {
 		int hour = sc.nextInt();
 		System.out.println("분을 입력하세요");
 		int minute = sc.nextInt();
-		int nowm = minute - 45;
+		int nowm = minute - 45; 
 
 		if (hour > 0 && nowm < 0) {
 			int result1 = hour - 1;
