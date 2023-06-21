@@ -1,28 +1,30 @@
 package sub3;
 
 import java.io.BufferedReader;
-import java.util.Scanner;
+import java.io.BufferedWriter;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.IOException;
 
 public class Test06 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-	public static void main(String[] args) {
-		
-		BufferedReader 
-		
-		int t = ;
-				
-		for (int i = 0 ;  i < t ; i++ ) {
-			
-			int a = sc.nextInt();
-			
-			int b = sc.nextInt(); 
-			
-			int result = a + b;
-			System.out.println(result);
-		}
-		   
-		sc.close();
-		
-	}
+        int T = Integer.parseInt(br.readLine());
 
+        for (int i = 0; i < T; i++) {
+            String[] inputs = br.readLine().split(" ");
+            int A = Integer.parseInt(inputs[0]);
+            int B = Integer.parseInt(inputs[1]);
+
+            int sum = A + B;
+            bw.write(Integer.toString(sum));
+            bw.newLine();
+        }
+
+        bw.flush();
+        bw.close();
+        br.close();
+    }
 }

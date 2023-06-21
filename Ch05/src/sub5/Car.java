@@ -1,9 +1,8 @@
-package sub2;
+package sub5;
 
 public class Car {
 	
-
-    protected String name;
+	protected String name;
     protected String color;
     protected int speed;
 		
@@ -14,7 +13,8 @@ public class Car {
     }
     
 	public void speedUp(int speed) {
-		this.speed += speed;		
+		this.speed += speed;
+		
 	}
 		
 	public void speedDown(int speed) {
@@ -27,4 +27,3 @@ public class Car {
 		System.out.println("현재속도 : + " + this.speed);	
 	}
 }	
-	
