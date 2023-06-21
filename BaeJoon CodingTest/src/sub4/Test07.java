@@ -1,4 +1,4 @@
-package sub3;
+package sub4;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

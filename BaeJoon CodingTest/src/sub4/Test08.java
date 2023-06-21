@@ -1,4 +1,4 @@
-package sub3;
+package sub4;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.IOException;
 
-public class Test07 {
+public class Test08 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -19,7 +19,7 @@ public class Test07 {
             int B = Integer.parseInt(inputs[1]);
 
             int sum = A + B;
-            String result = "Case #" + i + ": " + sum;
+            String result = "Case #" + i + ": " + A + " + " + B + " = " + sum;
             bw.write(result);
             bw.newLine();
         }

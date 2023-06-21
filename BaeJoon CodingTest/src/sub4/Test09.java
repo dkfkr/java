@@ -1,8 +1,8 @@
-package sub3;
+package sub4;
 
 import java.util.Scanner;
 
-public class Test10 {
+public class Test09 {
 
 
 	public static void main(String[] args) {
@@ -13,9 +13,6 @@ public class Test10 {
 		
 				
 		for(int s = 1 ; s <= n  ; s++) {
-			for (int i = 1; i <= n - s; i++) {
-                System.out.print(" ");
-            }
 			for(int e = 1 ; e <= s ; e++) {
 				System.out.printf("*");
 			}
