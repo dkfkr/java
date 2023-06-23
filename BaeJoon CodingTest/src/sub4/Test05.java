@@ -3,25 +3,28 @@ package sub4;
 import java.util.Scanner;
 
 public class Test05 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-	public static void main(String[] args) {
-				
-		    Scanner sc = new Scanner(System.in);
-			
-		    System.out.println("n 를 입력하세요");
-			int n = sc.nextInt();
-			String name = "long int";
-			
-			int count = n / 4;
-			
-		   	for(int i = 0 ; i < count - 1 ; i++) {
-		        name = "long " + name;	  	    		   		
-		   }
-		   	
-		   	System.out.println(name);
-		   	    
-			sc.close();
-			
-		}
-			    
-	}
+        int N = sc.nextInt();
+        int[] arr = new int[N];
+        int M = sc.nextInt();
+
+        for (int a = 0; a < M; a++) {
+            int i = sc.nextInt();
+            int j = sc.nextInt();
+            int k = sc.nextInt();
+
+            for (int b = i - 1; b < j; b++) {  
+            	arr[b] = k;  
+            }
+            
+        }
+
+        for (int c = 0; c < arr.length; c++) {
+            System.out.print(arr[c] + " ");
+        }
+
+        sc.close();
+    }
+}

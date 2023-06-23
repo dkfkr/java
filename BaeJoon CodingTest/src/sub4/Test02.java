@@ -1,26 +1,24 @@
 package sub4;
 
 import java.util.Scanner;
+
 public class Test02 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+     
+        int N = sc.nextInt();
+        int X = sc.nextInt();
+        int[] A = new int[N];
 
-	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
-		
-		int t = sc.nextInt();
-				
-		for (int i = 0 ;  i < t ; i++ ) {
-			
-			int a = sc.nextInt();
-			
-			int b = sc.nextInt(); 
-			
-			int result = a + b;
-			System.out.println(result);
-		}
-		   
-		sc.close();
-		
-	}
+        for(int i = 0 ; i < N; i++) {
+            A [i] = sc.nextInt();
+        }
 
+        for(int i = 0; i < N ; i++) {
+            if (X > A[i]){
+            	System.out.print(A[i] + " ");
+
+            }
+        }        
+    }  
 }

@@ -1,31 +1,25 @@
 package sub4;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.IOException;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
 
-public class Test07 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+public class Test07{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Set<Integer> submittedNumbers = new HashSet<>();
 
-        int T = Integer.parseInt(br.readLine());
-
-        for (int i = 1; i <= T; i++) {
-            String[] inputs = br.readLine().split(" ");
-            int A = Integer.parseInt(inputs[0]);
-            int B = Integer.parseInt(inputs[1]);
-
-            int sum = A + B;
-            String result = "Case #" + i + ": " + sum;
-            bw.write(result);
-            bw.newLine();
+        for (int i = 0; i < 28; i++) {
+            int number = sc.nextInt();
+            submittedNumbers.add(number);
         }
 
-        bw.flush();
-        bw.close();
-        br.close();
+        for (int i = 1; i <= 30; i++) {
+            if (!submittedNumbers.contains(i)) {
+                System.out.println(i);
+            }
+        }
+
+        sc.close();
     }
 }

@@ -3,33 +3,26 @@ package sub4;
 import java.util.Scanner;
 
 public class Test04 {
-
 	public static void main(String[] args) {
-			
-	    Scanner sc = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);
+		int[] arr = { in.nextInt(), in.nextInt(), in.nextInt(),
+				in.nextInt(), in.nextInt(), in.nextInt(),
+				in.nextInt(), in.nextInt(), in.nextInt() };
+		in.close();
 		
-	    System.out.println("x 를 입력하세요");
-		int x = sc.nextInt();
-		System.out.println("n 를 입력하세요");
-		int n = sc.nextInt();    
-	   	int sum = 0;
+		int count = 0;
+		int max = 0;
+		int index = 0;
+        
+		for(int value : arr) {
+			count++;
+            
+			if(value > max) {
+				max = value;
+				index = count;
+			}
+		}
+		System.out.print(max + "\n" + index);
 		
-	   	for(int i = 0 ; i < n ; i++) {
-	   		System.out.println("a 를 입력하세요");
-	   		int a = sc.nextInt();
-	   		System.out.println("b 를 입력하세요");
-	   		int b = sc.nextInt();
-	   		
-	   		sum += a * b;
-	   	}
-	   	if(sum == x) {
-	   		System.out.println("Yes");
-	   	}else {
-	   		System.out.println("No");
-	   	}
-		
-	   	sc.close();
-				
 	}
-		    
 }
