@@ -20,7 +20,7 @@ class Vehicle {
 	
 class CarFactory{
 	private static CarFactory instance = new CarFactory();
-	
+	private CarFactory() {}
 	
 	public static CarFactory gerInstance() {
 		return instance;
@@ -33,7 +33,8 @@ class CarFactory{
 
 public class Test05 {
 	public static void main(String[] args) {
-		CarFactory factory = new CarFactory();
+		
+		CarFactory factory = CarFactory.gerInstance();
 		
 		Vehicle avante = factory.createCar("아반테", 2500);
 		Vehicle sonata = factory.createCar("소나타", 3000);
