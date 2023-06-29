@@ -1,6 +1,7 @@
 package sub5;
 
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class Test08 {
 
@@ -8,14 +9,18 @@ public class Test08 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int y = sc.nextInt(); 
-		 
-		int result = (y - 543); 
-		
-		System.out.println(result);
-		
+		String a =  sc.nextLine();
 		sc.close();
-	 
-	    }
+		
+		StringTokenizer str = new StringTokenizer(a," ");
+		
+		System.out.println(str.countTokens());
 			
 	}
+	
+}
+
+// 문자열 개수 세기 로직 
+// StringTokenizer str = new StringTokenizer(a," ");
+// System.out.println(str.countTokens());
+	

@@ -3,19 +3,15 @@ package sub5;
 import java.util.Scanner;
 
 public class Test03 {
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            int T = scanner.nextInt();
 
-	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
-		
-	
-		int a = sc.nextInt();
-		
-		int b = sc.nextInt();
-		
-		System.out.println(a - b);
-		
-		sc.close();
+            for (int i = 0; i < T; i++) {
+                String input = scanner.next();
 
-       }
+                System.out.println(input.charAt(0) + "" + input.charAt(input.length() - 1));
+            }
+        }
+    }
 }
