@@ -1,0 +1,19 @@
+package ch04check;
+
+public class Test01 {
+	public static void main(String[] args) {
+		String grade = "b";
+		
+		int score = switch (grade) {
+					case "A" -> 100;
+					case "B" -> {
+									int result = 100 - 20;
+									yield result;
+									}
+					default -> 60;
+				};
+				
+				System.out.println(score);
+				
+	}
+}
